@@ -7,8 +7,8 @@
 # Remove publish-profile
 - uses: azure/webapps-deploy@v2
   with:
-    app-name: '<app-name>'
-    slot-name: 'production'
+    app-name: 'simple-webapp-as01'
+    slot-name: 'simple-webapp-as01-gitHub-action'
     package: .
 - name: Sign out of Azure
   run: |
