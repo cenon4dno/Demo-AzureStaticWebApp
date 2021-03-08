@@ -17,7 +17,7 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: 'simple-webapp-as01'
-        slot-name: 'simple-webapp-as01-gitHub-action'
+        slot-name: 'gitHub-action'
         package: .
     - name: Sign out of Azure
       run: |
